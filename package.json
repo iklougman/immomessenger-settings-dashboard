@@ -11,11 +11,18 @@
     "format": "prettier --write ."
   },
   "dependencies": {
-    "@mantine/core": "^8.0.0",
-    "@mantine/hooks": "^8.0.0",
+    "@auth0/nextjs-auth0": "^4.9.0",
+    "@mantine/charts": "^8.2.4",
+    "@mantine/core": "^8.2.4",
+    "@mantine/dates": "^8.2.4",
+    "@mantine/form": "^8.2.4",
+    "@mantine/hooks": "^8.2.4",
+    "@mantine/notifications": "^8.2.4",
+    "dayjs": "^1.11.13",
     "next": "^15.1.7",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "recharts": "^3.1.2",
     "tailwind-preset-mantine": "^2.1.0"
   },
   "devDependencies": {

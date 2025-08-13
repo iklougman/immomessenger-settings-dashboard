@@ -17,8 +17,13 @@
         "name": "next"
       }
     ],
+    "baseUrl": "src",
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["*"],
+      "shared/*": ["shared/*"],
+      "entities/*": ["entities/*"],
+      "features/*": ["features/*"],
+      "widgets/*": ["widgets/*"]
     },
     "target": "ES2017"
   },
